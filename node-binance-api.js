@@ -129,6 +129,11 @@ let api = function Binance( options = {} ) {
         } else if ( callback ) callback();
         return this;
     }
+    
+    /**
+     * Return Binance.info
+     */
+    function getInfo(){return Binance.info}
 
     /**
      * Replaces socks connection uri hostname with IP address
